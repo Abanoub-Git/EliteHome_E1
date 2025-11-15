@@ -1,0 +1,411 @@
+@media screen and (min-width: 576px) {
+    .af_be::after{
+    right: 20%;
+}
+
+.af_be::before{
+    left: 20%;
+}
+
+
+.af_be_wwo::after{
+    right: 27%;
+}
+
+
+.af_be_wwo::before{
+    left: 27%;
+}
+
+
+.af_be2::before{
+    background-image: linear-gradient(to left,#FEA200,rgba(0,0,0,0.2));
+    left: 27%;
+}
+
+.af_be2::after{
+    background-image: linear-gradient(to right,#FEA200,rgba(0,0,0,0.2));
+    right: 27%;
+}
+.badge3{
+    bottom: 45%;
+}
+
+.effect-scale{
+    width: 18%;
+}
+
+.cardauother img{
+    width: 15%;
+}
+
+button.btncard{
+    width: 25%;
+}
+
+.headcolor1{
+    background-image: linear-gradient(to right,#6800c3 45%,rgb(216, 141, 0),rgb(220, 105, 178));
+}
+.carddd img{
+    width: 30%;
+}
+.imgcap h6,.imgcap p{
+    margin-top: 10px;
+}
+
+}
+
+
+@media screen and (min-width: 768px) {
+.af_be::after{
+    right: 27%;
+}
+
+.af_be::before{
+    left: 27%;
+}
+
+
+.af_be_wwo::after{
+    right: 32%;
+}
+
+
+.af_be_wwo::before{
+    left: 32%;
+}
+
+
+.af_be2::before{
+    background-image: linear-gradient(to left,#FEA200,rgba(0,0,0,0.2));
+    left: 32%;
+}
+
+.af_be2::after{
+    background-image: linear-gradient(to right,#FEA200,rgba(0,0,0,0.2));
+    right: 32%;
+}
+
+
+.headcolor{
+    background-image: linear-gradient(to right,#6800c3 15%,rgb(220, 105, 178),rgb(216, 141, 0));
+}
+
+
+.headcolor2{
+    background-image: linear-gradient(to right,#6800c3 10%,#d45bf3);
+}
+
+
+.client-image {
+    width: 15%;
+}
+
+
+.badge3{
+    bottom: 40%;
+}
+
+
+.effect-scale{
+    width: 30%;
+}
+
+
+.carousel-control-prev-icon {
+	margin-right: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+	margin-left: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.carddd img{
+    width: 20%;
+}
+.imgcap h6,.imgcap p{
+    margin-top: 10px;
+}
+
+.lastcard{
+    width: 48%;
+}
+
+} 
+
+
+@media screen and (min-width: 992px) {
+
+.navbar .container-fluid{
+    width: 95%;
+}
+    .mycontainer{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+ul li a.nav-link:hover::before,
+ul li a.nav-link:focus::before,
+ul li a.nav-link.active::before {
+    width: 83%;
+}
+
+.nav-link:hover{
+    background-color: transparent;
+}
+
+
+.tophero h1{
+    font-size: 50px;
+}
+
+.af_be2::before{
+    background-image: linear-gradient(to left,#FEA200,rgba(0,0,0,0.2));
+    left: 35%;
+}
+
+.af_be2::after{
+    background-image: linear-gradient(to right,#FEA200,rgba(0,0,0,0.2));
+    right: 35%;
+}
+
+.af_be_wwo::after{
+    right: 35%;
+}
+
+
+.af_be_wwo::before{
+    left: 35%;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	width: 700%;
+    height: 100vh;
+	left: -300%;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	width: 800%;
+    height: 100vh;
+	left: -500%;
+}
+
+
+.carddd:hover{
+    cursor: pointer;
+    background-color: rgba(227, 227, 227, 0.663);
+}
+
+
+.carddd img{
+    width: 30%;
+}
+
+.bglayer{
+    height: 100%;
+}
+
+.bglayer:hover{
+    background-color:#4d009fb0 ;
+}
+
+
+.colwidth img{
+    height: 75px;
+}
+.colwidth{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.lastcard{
+    width: 100%;
+}
+
+.lasttext{
+    font-size: 12px;
+}
+
+.cursorp{
+    cursor: pointer;
+}
+
+.layer1st{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #F5F3FF;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 60px;
+    z-index: -1;
+}
+
+.layercolor1{
+    background-color:#EDFDF3 ;
+}
+.layercolor2{
+    background-color:#F9F3FF ;
+}
+
+.arrow-animation{
+    transition: all 0.1s ease;
+}
+
+.textmin:hover .arrow-animation{
+    transform: translateX(4px);
+}
+
+.textmin:hover .change-color{
+    color: #6800c3;
+}
+
+.textmin:hover .change-color1{
+    color: #00A63E;
+}
+
+    header .mycontainer{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.af_be::after{
+    right: 37%;
+}
+
+.af_be::before{
+    left: 37%;
+}
+
+.af_be2::before{
+    background-image: linear-gradient(to left,#FEA200,rgba(0,0,0,0.2));
+    left: 40%;
+}
+
+.af_be2::after{
+    background-image: linear-gradient(to right,#FEA200,rgba(0,0,0,0.2));
+    right: 40%;
+}
+
+.af_be_wwo::after{
+    right: 39%;
+}
+
+
+.af_be_wwo::before{
+    left: 39%;
+}
+    
+.minfont{
+    font-size: 25px;
+}
+.cardauother img{
+    width: 25%;
+}
+button.btncard{
+    width: 38%;
+}
+    
+    .mycontainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.badge3{
+    bottom: 51%;
+}
+.client-stories .mycontainer{
+    width: 75%;
+}
+
+.carousel-control-prev-icon {
+	margin-right: 110px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+	margin-left: 110px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.helping-center .mycontainer,.services .mycontainer{
+    width: 80%;
+}
+
+.client-image{
+    width: 8%;
+}
+
+.contact .mycontainer{
+    width: 90%;
+}
+
+.effect-scale{
+    width: 35%;
+}
+
+.cardbg,.card-socialbg{
+    width: 100%;
+}
+
+
+.contact{
+    position: relative;
+}
+
+.layer1{
+    width: 200px;
+    height: 200px;
+    background: #bea7ff27;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+.layer2{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 3px solid rgba(188, 144, 255, 0.479);
+    border-radius: 100%;
+    position: absolute;
+    right: 7%;
+    top: 5%;
+}
+
+.layer3{
+    width: 185px;
+    height: 185px;
+    background: #bea7ff27;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.layer4{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 3px solid rgba(188, 144, 255, 0.479);
+    border-radius: 100%;
+    position: absolute;
+    left: 6%;
+    bottom: 3%;
+}
+
+} 
+

@@ -1,0 +1,637 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+::selection{
+    background-color: #A684FF;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.mycontainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.af_be::after{
+    content: "";
+    width: 45px;
+    height: 2px;
+    background-image: linear-gradient(to right,#7b08ff,rgba(0,0,0,0.2));
+    position: absolute;
+    top: 50%;
+    right: 9%;
+    border-radius: 20px;
+}
+
+.af_be::before{
+    content: "";
+    width: 45px;
+    height: 2px;
+    background-image: linear-gradient(to left,#7b08ff,rgba(0,0,0,0.2));
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    border-radius: 20px;
+}
+
+
+.af_be_wwo::after{
+    right: 18%;
+}
+
+
+.af_be_wwo::before{
+    left: 18%;
+}
+
+
+.af_be2::before{
+    background-image: linear-gradient(to left,#FEA200,rgba(0,0,0,0.2));
+    left: 17%;
+}
+
+.af_be2::after{
+    background-image: linear-gradient(to right,#FEA200,rgba(0,0,0,0.2));
+    right: 17%;
+}
+
+
+.headcolor{
+    background-image: linear-gradient(to right,#6800c3 40%,rgb(220, 105, 178),rgb(216, 141, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+.headcolor1{
+    background-image: linear-gradient(to right,#6800c3 10%,rgb(220, 105, 178),rgb(216, 141, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+.headcolor2{
+    background-image: linear-gradient(to right,#6800c3 10%,#d45bf3);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+/* ---------------------------------------------- */
+.navbar{
+    box-shadow: 0 0 4px rgb(97, 97, 97);
+}
+
+.navbar .container-fluid{
+    width: 100%;
+}
+
+.nav-link:focus, .nav-link:hover{
+	color: #8855F4;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+	color: #8855F4;
+    font-weight: bold;
+    
+}
+
+.nav-link{
+    position: relative;
+}
+
+ul li a.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 7px;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background-color: #8855F4;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover{
+    background-color: #b774ff39;
+}
+
+
+.bord1{
+    border: 1px solid rgba(174, 61, 255, 0.193);
+}
+
+.bord1:hover{
+    border: 1px solid rgba(242, 62, 255, 0.675);
+}
+
+.bord2{
+    border: 1px rgba(49, 255, 87, 0.226) solid;
+}
+
+.bord2:hover{
+    border: 1px rgba(49, 255, 87, 0.505) solid;
+}
+
+.bord3{
+    border: 1px solid rgba(242, 62, 255, 0.21);
+}
+
+.bord3:hover{
+    border: 1px solid rgba(242, 62, 255, 0.538);
+}
+
+.imgcap h6,.imgcap p{
+    font-size: 12px;
+}
+
+.carddd{
+    background-color: rgba(242, 242, 242, 0.548);
+}
+
+.carddd img{
+    width: 65%;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.colwidth{
+    width: 33.333%;
+}
+
+.colwidth img{
+    width: 90%;
+}
+
+.bglayer{
+    background-color: #4d009f71;
+    width: 90%;
+    height: 95%;
+    position: absolute;
+    left: 0%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.bglayer h6{
+    font-size: 15px ;
+    font-weight: bold;
+    margin-top: -7px;
+}
+
+.bglayer p{
+    font-size: 12px;
+    line-height: 0.1;
+    color: rgb(190, 190, 190);
+    margin-top: -5px;
+}
+
+.lastcard{
+    width: 45%;
+
+}
+
+
+.lasttext{
+    font-size: 10px;
+}
+
+.textmin h5{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.test p{
+    line-height: 50%;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.test p:hover{
+    color: #8400a1;
+}
+
+.lastcard{
+    background-color: rgba(242, 242, 242, 0.251);
+}
+
+/* ---------------------------------------------- */
+.tophero{
+    font-weight: bold;
+}
+
+
+header{
+    background-image: linear-gradient(to right, #4e179aa4, #58168bce),url(../images-e/hero-bg-img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-select {
+    background-image: none;
+}
+
+.form-control:focus {
+	color: var(--bs-body-color);
+	background-color: var(--bs-body-bg);
+	border-color: rgb(158, 22, 255);
+    border: outset rgb(166, 0, 212) 2px;
+	outline: 0;
+	box-shadow: 0 0 0 1px rgba(173, 0, 212, 0.219);
+}
+
+.form-select:focus {
+	border-color: rgb(158, 22, 255);
+	box-shadow: 0 0 0 1px rgba(173, 0, 212, 0.219);
+}
+
+
+.mybtncolor{
+    background-image: linear-gradient(to right,#8800ff,rgb(154, 13, 255));
+}
+
+.mybtncolor:hover{
+    background-image: linear-gradient(#6800c3);
+}
+
+.cardhero{
+    width: 45%;
+}
+/* ------------------------------------ */
+section.premium{
+    background-color: #F9FAFB;
+}
+
+.headS p{
+    position: relative;
+}
+
+
+.bgparagraph{
+    background-color: #FAF5FF;
+    border-color: #E8C4DE;
+    color: #54009e;
+}
+
+
+.colorpurple{
+    color: #6800c3;
+}
+
+.mybgcolor{
+    background-color: #7324e9;
+}
+
+.badge1{
+    top: 3%;
+    left: 5%;
+    background-color: #6800c3;
+}
+
+.badge2{
+    top: 3%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.907);
+}
+
+.badge2:hover{
+    color: red;
+}
+
+.badge3{
+    left: 5%;
+    bottom: 52%;
+    background-color: rgba(35, 35, 35, 0.83);
+}
+
+.badgenew{
+    background-color: #00A63E;
+}
+
+.badgedrop{
+    background-color: #E17100;
+}
+
+
+.cardd{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.36);
+}
+
+.imagebox img.cardtop{
+    transition: transform 0.4s ease;
+}
+
+.card:hover img.cardtop{
+    transform: scale(1.15);
+}
+
+.cardauother img{
+    width: 22%;
+}
+
+.btncard{
+    background-color:  #EDE9FE;
+    color: #4d009f;
+}
+
+.btncard:hover{
+    color:#6800c3;
+    background-color: #DDD6FF;
+}
+
+/* ---------------------------------- */
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color:#6800c3;
+	background-color:#eae6ff;
+	border: 0;
+    border-bottom: 1px solid #6800c3;
+}
+
+.nav-tabs .nav-link {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+    color: rgb(52, 52, 52);
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	border-color: transparent;
+    border-bottom: 1px solid #A684FF;
+    color: #6800c3;
+}
+
+.badge3rd{
+    background-color: #e2ddfa;
+}
+
+.btn:hover {
+	background-color:#4d009f;
+}
+
+.badgenavtab1{
+    box-shadow: 0 0 4px rgba(156, 156, 156, 0.425);
+}
+
+.colorgreen{
+    color: #00A63E;
+}
+
+.badge4th{
+    background-color:#DCFCE7 ;
+    color: #00A63E;
+}
+
+.mybgcolor2{
+    background-color: #00A63E;
+}
+
+.mybgcolor2:hover{
+    background-color: #007e2e;
+}
+
+.colororange{
+    color: #D08700;
+}
+
+.badge5th{
+    color: #D08700;
+    background-color: #FEF9C2;
+}
+
+.mybgcolor3{
+    background-color: #D08700;
+}
+
+.mybgcolor3:hover{
+    background-color: #895900;
+}
+
+.badge6th{
+    color: #4F39F6;
+    background-color: #E0E7FF;
+}
+
+.colorblue{
+    color: #4F39F6;
+}
+
+.mybgcolor4{
+    background-color:#4f3cf9 ;
+}
+
+.mybgcolor4:hover{
+    background-color:#432DD7 ;
+}
+/* -------------------------------------- */
+
+section.client-stories{
+    background-image: linear-gradient(to right,#4F1797,#58168C);
+}
+
+
+.client-image{
+    width: 20%;
+}
+
+.client-about{
+    line-height: 0.8;
+}
+
+.carousel-indicators {
+	margin-bottom: -1.5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+	width: 15px;
+	height: 15px;
+    border-radius: 50%;
+	background-color: white;
+}
+
+.sliderbtncolor:hover{
+    background-color: rgb(194, 194, 194);
+}
+/* ----------------------------------------------- */
+
+section.helping-center{
+    background-color: #F9FAFB;
+}
+
+
+.faq-item {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.07);
+}
+
+
+.faq-item .accordion-button {
+    box-shadow: none;
+    
+}
+
+.faq-item .accordion-button:hover{
+    background-color: rgba(216, 216, 216, 0.147);
+}
+
+.accordion-button {
+    padding: 1.5rem 1.8rem;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #1d1d1d;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: #1d1d1d;
+    box-shadow: none;
+}
+
+
+.faq-item .accordion-body {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* -------------------------------------- */
+.effect-scale{
+    width: 23%;
+}
+
+
+.contactcolor1{
+    background-color: #A333FF;
+}
+.contactcolor2{
+    background-image: linear-gradient(-45deg,orange,#A333FF);
+}
+.contactcolor3{
+    background-color: #5649FA;
+}
+
+.color1{
+    color: #8200DB;
+}
+
+.color2{
+    color: #E60076;
+}
+
+.color3{
+    color: #432DD7;
+}
+
+.mycursor{
+    cursor: pointer;
+}
+
+.effect-trans{
+    transition: all 0.2s ease;
+}
+
+.effect-trans:hover{
+    transform: translateY(-5px);
+    border: 2px solid #5800db8e ;
+}
+
+.effect-scale{
+    transition: all 0.2s ease;
+}
+
+.effect-trans:hover .effect-scale{
+    transform: scale(1.1);
+}
+
+.eftrans2:hover{
+    border: 2px solid #8900c98e ;
+}
+
+.eftrans3:hover{
+    border: 2px solid rgba(255, 75, 183, 0.541) ;
+}
+
+.eftrans4:hover{
+    border: 2px solid #0021c98e ;
+}
+
+.cardbg{
+    background-color: #F6F7F9;
+}
+
+.card1-details{
+    line-height: 0.5;
+}
+
+.card-socialbg{
+    background-image: linear-gradient(to bottom,#640aff,#A333FF);
+}
+
+.socialbg{
+    background-color: rgba(179, 179, 179, 0.216);
+    transition: all 0.2s ease;
+}
+
+.socialbg:hover{
+    background-color: rgba(255, 255, 255, 0.348);
+    transform: scale(1.1);
+}
+
+.form-mycard{
+    border: 1px solid rgba(182, 182, 182, 0.285);
+}
+
+.chboxbg{
+    background-color: #f8f6ff;
+}
+
+.form-check-input:checked{
+    background-color: #A333FF;
+    border-color: #A333FF;
+}
+
+.form-check-input:focus {
+	border-color: rgb(157, 157, 157);
+	box-shadow: 0 0 0 0;
+}
+
+
+.formbtncolor{
+    background: linear-gradient(90deg,#7f00ff,#9d00ff);
+    transition: transform 0.3s ease;
+}
+
+.formbtncolor:hover{
+    transform: translateY(-4px);
+}
+
+.inputbg{
+    background-color: rgba(221, 221, 221, 0.227);
+}
+
+/* ----------------------------------------------- */
+
+.foot-bgcolor{
+    background: linear-gradient(90deg,#501797,#59168C);
+}
+
+.footer-border{
+    width: 95%;
+    border: 1px solid rgba(199, 199, 199, 0.121) ;
+}
