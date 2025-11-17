@@ -236,6 +236,7 @@ ul li a.nav-link::before{
 
 header{
     background-image: linear-gradient(to right, #4e179aa4, #58168bce),url(../images-e/hero-bg-img.png);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
